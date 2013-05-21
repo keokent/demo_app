@@ -13,22 +13,22 @@ group :assets do
  gem 'sass-rails', '~> 4.0.0.rc1'
  gem 'coffee-rails', '~> 4.0.0'
 
- gem 'uglifier', '>= 1.3.0'
+ gem 'uglifier', '>= 1.0.3'
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails','2.0.2'
+gem 'jquery-rails','2.2.1'
 
 group:production do
- gem 'pg','0.12.2'
+ gem 'pg','0.14.1'
 end
 
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks','1.0.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.0.1'
